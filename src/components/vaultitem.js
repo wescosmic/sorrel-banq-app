@@ -11,6 +11,11 @@ const VaultItem = () => {
 
     <>
 
+        <div class="row mt-5">
+          <div class="col text-center d-lg-none">
+          </div>
+        </div>
+
         <div class="card-header d-none d-lg-block">
           <div class="row mt-4 mx-3 pt-3 pe-4 text-white">
             <div class="col text-center">
@@ -47,7 +52,7 @@ const VaultItem = () => {
                 <b class="d-lg-none">APR</b>
                 <h6>3.69%</h6>
               </div>
-              <div class="col text-center">
+              <div class="col-xs-6 text-center">
                 <b class="d-lg-none">My Deposit</b>
                 <h6>21.369 BTC</h6>
               </div>
@@ -58,7 +63,7 @@ const VaultItem = () => {
           <div class="accordion-body">
           <div class="row">
             <div class="col border-bottom pb-3 border-width-2">
-              Vault harvests yields from the goStables protocol and automatically deposits it to your chosen account on the 1st of every month. Deposits are locked for 3 months.
+              Vault harvests yields from the goStables protocol and automatically deposits it to your chosen account on the 1st of every month. Deposits are locked for a minimum of 3 months.
             </div>
           </div>
           <div class="row mt-3">
@@ -121,7 +126,7 @@ const VaultItem = () => {
                 <b class="d-lg-none">APR</b>
                 <h6>3.69%</h6>
               </div>
-              <div class="col text-center">
+              <div class="col-xs-6 text-center">
                 <b class="d-lg-none">My Deposit</b>
                 <h6>408,006 TRX</h6>
               </div>
@@ -162,7 +167,7 @@ const VaultItem = () => {
                 <b class="d-lg-none">APR</b>
                 <h6>3.69%</h6>
               </div>
-              <div class="col text-center">
+              <div class="col-xs-6 text-center">
                 <b class="d-lg-none">My Deposit</b>
                 <h6>8,006 BNB</h6>
               </div>
@@ -203,7 +208,7 @@ const VaultItem = () => {
                 <b class="d-lg-none">APR</b>
                 <h6>3.69%</h6>
               </div>
-              <div class="col text-center">
+              <div class="col-xs-6 text-center">
                 <b class="d-lg-none">My Deposit</b>
                 <h6>$48,006.98</h6>
               </div>

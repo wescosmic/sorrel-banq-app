@@ -10,7 +10,7 @@ const NavMenu = () => {
 	 	console.log(selected);
 	 	navigate('/'+selected)
 	 }} className="navmenu"
-	 >	
+	 >	<SideNav.Toggle />
 	 	<div className="logo"><h5 className="text-white mx-2 mt-3">Sorrel</h5></div>
 		 
 		 <SideNav.Nav defaultSelected="home">

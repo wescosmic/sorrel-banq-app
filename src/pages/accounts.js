@@ -21,7 +21,12 @@ const Accounts = () => {
         </div>
       </div>
 
-
+      <div class="row mt-4">
+        <div class="col text-center d-lg-none">
+          <h1>Accounts</h1>
+          <p>Easily manage your digital currencies.</p>
+        </div>
+      </div>
       <div className="row mt-3 mx-3">
         <div className="col-sm bal-card text-center">
           <h3>Balance</h3>

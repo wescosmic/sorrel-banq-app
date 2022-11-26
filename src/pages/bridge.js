@@ -15,11 +15,25 @@ const Bridge = () => {
               <WalletConnect></WalletConnect>
             </div>
           </div>
-
+          <div class="row mt-4">
+            <div class="col text-center d-lg-none">
+              <h1>Bridge</h1>
+              <p>Convert your stablecoins into the real world</p>
+            </div>
+          </div>
       </div>
+
+
+
     </div>
 
+
+
     <div class="container bridge content">
+        <div class="row mt-5">
+          <div class="col text-center d-lg-none">
+          </div>
+        </div>
       <div class="row mt-n4">
         <div class="col"></div>
         <div class="col-md-6">
