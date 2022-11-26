@@ -14,7 +14,12 @@ const Home = () => {
                 <WalletConnect></WalletConnect>
               </div>
             </div>
-
+            <div class="row mt-4">
+              <div class="col text-center d-lg-none">
+                <h1>Bridge</h1>
+                <p>Convert your stablecoins into the real world</p>
+              </div>
+            </div>
 
         </div>
     </div>
@@ -23,8 +28,9 @@ const Home = () => {
     <div class="container home content mt-n4">
 
             <div class="row mt-5 mx-5 text-center">
-              <div class="col">
-                <h1>Save</h1>
+              <div class="col"></div>
+              <div class="col-8">
+                <h1>Save | Earn | Spend</h1>
 
                 <div class="card" >
                   <div class="card-body">
@@ -33,26 +39,7 @@ const Home = () => {
                 </div>
 
               </div>
-              <div class="col">
-                <h1>Earn</h1>
-
-                <div class="card" >
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-
-              </div>
-              <div class="col">
-                <h1>Spend</h1>
-
-                <div class="card" >
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-                
-              </div>
+              <div class="col"></div>
             </div>
 
     </div>
