@@ -20,7 +20,7 @@ const VaultItem = () => {
               APR
             </div>
             <div class="col text-center">
-              My Deposits
+              My Deposit
             </div>
 
           </div>
@@ -45,11 +45,11 @@ const VaultItem = () => {
               </div>
               <div class="col text-center apr-info">
                 <b class="d-lg-none">APR</b>
-                <h6>2.69%</h6>
+                <h6>3.69%</h6>
               </div>
               <div class="col text-center">
                 <b class="d-lg-none">My Deposit</b>
-                <h6>$48,006.98</h6>
+                <h6>21.369 BTC</h6>
               </div>
             </div>
           </button>
@@ -58,7 +58,7 @@ const VaultItem = () => {
           <div class="accordion-body">
           <div class="row">
             <div class="col border-bottom pb-3 border-width-2">
-              Vault harvests yields from the goStables protocol and automatically deposits to your chosen Account every 30 days. Deposits are locked for 3 months.
+              Vault harvests yields from the goStables protocol and automatically deposits it to your chosen account on the 1st of every month. Deposits are locked for 3 months.
             </div>
           </div>
           <div class="row mt-3">
@@ -119,11 +119,11 @@ const VaultItem = () => {
               </div>
               <div class="col text-center apr-info">
                 <b class="d-lg-none">APR</b>
-                <h6>2.69%</h6>
+                <h6>3.69%</h6>
               </div>
               <div class="col text-center">
                 <b class="d-lg-none">My Deposit</b>
-                <h6>$48,006.98</h6>
+                <h6>408,006 TRX</h6>
               </div>
             </div>
           </button>
@@ -160,11 +160,11 @@ const VaultItem = () => {
               </div>
               <div class="col text-center apr-info">
                 <b class="d-lg-none">APR</b>
-                <h6>2.69%</h6>
+                <h6>3.69%</h6>
               </div>
               <div class="col text-center">
                 <b class="d-lg-none">My Deposit</b>
-                <h6>$48,006.98</h6>
+                <h6>8,006 BNB</h6>
               </div>
             </div>
           </button>
@@ -201,7 +201,7 @@ const VaultItem = () => {
               </div>
               <div class="col text-center apr-info">
                 <b class="d-lg-none">APR</b>
-                <h6>2.69%</h6>
+                <h6>3.69%</h6>
               </div>
               <div class="col text-center">
                 <b class="d-lg-none">My Deposit</b>
