@@ -17,8 +17,8 @@ const Home = () => {
             </div>
             <div class="row mt-4">
               <div class="col text-center d-lg-none">
-                <h1>Bridge</h1>
-                <p>Convert your stablecoins into the real world</p>
+                <h1>Getting Started</h1>
+                <p>What can you do with Sorrel?</p>
               </div>
             </div>
 
