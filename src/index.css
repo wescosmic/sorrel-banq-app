@@ -5,9 +5,95 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.bg{
+    background-color: #212529;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.offcanvas{
+  background-color: #212529!important;
+}
+
+.mt-n4 {margin-top: -13em!important;}
+
+.bg-info h1, .bg-info h5, .home.content h1 {color:#fff!important;}
+
+.bg-info {
+    color:#fff!important;
+    min-height: 330px;
+}
+
+.offcanvas-header.bg-info {
+  min-height:100px!important;
+}
+
+.navmenu i{color: #acb0ff;}
+
+.navmenu{
+  background-color: #1d2024!important;
+  position: fixed!important;
+
+}
+
+.content{
+/*      margin-left: 20em!important;*/
+
+}
+
+.home.content .card{
+  min-height: 400px;
+}
+
+
+.bal-card, .info-card{
+
+    border: 1px solid #b3b3b3;
+    color:#485785;
+    padding: 3em;
+    border-radius: 20px;
+    margin: 2em 1em;
+    background-color:var( --bs-body-bg);
+
+
+}
+
+
+.accounts.content {
+    min-height: 900px;
+}
+
+.owned-accounts .btn{
+margin-top:0px!important;
+}
+
+.currency-acc{
+  box-shadow: 1px 1px 8px #b7a3a570;
+  border-radius: 12px;
+}
+
+.accounts .btn, .info-card .btn, .web3-connect .btn {
+  margin:10px;
+}
+
+.currency-acc .apr-info h6{
+color:#10a265!important;
+font-weight: bold;
+}
+.currency-acc img{
+  margin-top: -20px!important;
+  margin-right: 10px!important;
+    border-radius: 25% !important;
+    border: 1px solid;
+    padding: 2px;
+}
+
+.currency-name{display: inline-block!important;}
+
+

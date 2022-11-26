@@ -1,24 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import NavMenu from './components/navmenu';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Home from './pages/home';
+import Accounts from './pages/accounts';
+import Vaults from './pages/vaults';
+import Bridge from './pages/bridge';
+import Addons from './pages/addons';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+    <Router>
+
+      <NavMenu />
+      <Routes>
+        <Route path = "/home" element={<Home/>} />
+        <Route path = "/accounts" element={<Accounts/>} />
+        <Route path = "/vaults" element={<Vaults/>} />
+        <Route path = "/bridge" element={<Bridge/>} />
+        <Route path = "/addons" element={<Addons/>} />
+        <Route path = "*" element={<Home/>} />
+      </Routes>
+
+    </Router>
+    </>
   );
 }
 
