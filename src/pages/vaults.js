@@ -19,10 +19,10 @@ const Vaults = () => {
             </div>
           </div>
 
-          <div class="row mt-3">
+          <div class="row">
             <div class="col"></div>
             <div className="col text-center">
-              <button class="btn btn-outline-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasVaultCreate" aria-controls="offcanvasVaultCreate"><i class="fa-solid fa-plus"></i>&nbsp;Create Vault</button>
+              <button class="btn btn-outline-secondary d-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasVaultCreate" aria-controls="offcanvasVaultCreate"><i class="fa-solid fa-plus"></i>&nbsp;Create Vault</button>
             </div>
           <div class="col"></div>
           </div>
@@ -36,14 +36,13 @@ const Vaults = () => {
 
 
     <div class="container vaults content">
-      <div class="row mt-n2">
+      <div class="row mt-n4">
         <div class="col"></div>
-        <div class="col-md-6">
-          <div class="card bg-secondary p-3">
-            <div class="card-body">
+        <div class="col-md-8">
 
 
-              <div class="row text-center">
+
+              <div class="row p-3">
                 <div class="col">
 
                   <div class="accordion" id="accordionExample">
@@ -57,6 +56,7 @@ const Vaults = () => {
                 <div class="row p-3">
                 <div class="col">
 
+
                 </div>
                 </div>
                 <div class="col">
@@ -67,8 +67,7 @@ const Vaults = () => {
 
 
             </div>
-          </div>
-        </div>
+
         <div class="col"></div>
       </div>
     </div>

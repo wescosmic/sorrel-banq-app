@@ -4,7 +4,7 @@ const WalletConnect = () => {
 
 
                 <div class="btn-group float-end" role="group">
-                  <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle btn-web3" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fa-solid fa-wallet"></i>&nbsp;
                     TTLv3***XbA&nbsp;&nbsp;&nbsp;
                   </button>
