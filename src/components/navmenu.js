@@ -13,7 +13,7 @@ const NavMenu = () => {
 	 >	<SideNav.Toggle />
 	 	<div className="logo"><h5 className="text-white mx-2 mt-3">Sorrel</h5></div>
 		 
-		 <SideNav.Nav defaultSelected="home">
+		 <SideNav.Nav defaultSelected="accounts">
 		 	<NavItem eventKey="home">
 		 		<NavIcon><i className="fa-solid fa-home" style={{fontSize: "1.5em"}}></i></NavIcon>
 		 		<NavText>Home</NavText>

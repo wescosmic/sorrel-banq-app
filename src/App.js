@@ -22,7 +22,7 @@ function App() {
         <Route path = "/vaults" element={<Vaults/>} />
         <Route path = "/bridge" element={<Bridge/>} />
         <Route path = "/addons" element={<Addons/>} />
-        <Route path = "*" element={<Home/>} />
+        <Route path = "*" element={<Accounts/>} />
       </Routes>
 
     </Router>
