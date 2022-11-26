@@ -22,7 +22,8 @@ const OffcanvasExchange = () => {
       <div class="col">
       <p className="text-left">Source</p>
       <select class="form-select form-select-sm" aria-label="Select Account">
-        <option selected>Primary - USDD $444,000.88</option>
+        <option selected>Wallet Balance - gTTD $44,000.88</option>
+        <option value="2">Primary - gTTD $4,400.88</option>
         <option value="2">Primary - gTTD $4,400.88</option>
         <option value="3">Primary - gGEL $44,000.88</option>
         <option value="4">Primary - gEUR $4,000.88</option>

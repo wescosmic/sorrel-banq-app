@@ -29,6 +29,21 @@ const Bridge = () => {
                 <div class="col">
                   <h4>Source</h4>
 
+                  <select class="form-select form-select-sm" aria-label="Select Account">
+                    <option selected>My Wallet</option>
+                    <option value="2">Primary Account</option>
+                    <option value="3">Travel Account</option>
+                    <option value="4">Groceries & Food Account</option>
+                  </select>
+
+                  <select class="mt-3 form-select form-select-sm" aria-label="Select Currency">
+                    <option selected>gTTD $4,400.88</option>
+                    <option value="2">gTTD $4,400.88</option>
+                    <option value="3">gTTD $4,400.88</option>
+                    <option value="4">gGEL $44,000.88</option>
+                    <option value="5">gEUR $4,000.88</option>
+                    <option value="6">gGBP $444.88</option>
+                  </select>
 
                   <div className="input-group mb-1 mt-3">
                     <div className="form-floating">
@@ -45,13 +60,7 @@ const Bridge = () => {
                     </span>
                   </div>
 
-                  <select class="form-select mt-3" aria-label="Select Currency">
-                    <option selected>gTTD</option>
-                    <option value="2">gGEL</option>
-                    <option value="3">gEUR</option>
-                    <option value="4">gGBP</option>
-                    <option value="5">USDD</option>
-                  </select>
+
 
                 </div>
                 <div class="row p-3 text-center">
@@ -90,7 +99,7 @@ const Bridge = () => {
                     <div class="col">
 
                       <button class="btn btn-outline-info btn-lg">
-                        Send
+                        Next Step
                       </button>
 
                     </div>
