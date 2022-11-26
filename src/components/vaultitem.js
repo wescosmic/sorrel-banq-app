@@ -35,7 +35,7 @@ const VaultItem = () => {
         <h2 class="accordion-header" id="headingOne">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
             <div class="container row mx-1 pt-3">
-              <div class="col">
+              <div class="col-md-4 col-sm-12">
                 <img
                   src={BTCImg}
                   alt="gStable"
@@ -52,7 +52,8 @@ const VaultItem = () => {
                 <b class="d-lg-none">APR</b>
                 <h6>3.69%</h6>
               </div>
-              <div class="col-xs-6 text-center">
+
+              <div class="col text-center">
                 <b class="d-lg-none">My Deposit</b>
                 <h6>21.369 BTC</h6>
               </div>
@@ -109,7 +110,7 @@ const VaultItem = () => {
         <h2 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="container row mx-1 pt-3">
-              <div class="col">
+              <div class="col-md-4 col-sm-12">
                 <img
                   src={TRXImg}
                   alt="gStable"
@@ -126,7 +127,8 @@ const VaultItem = () => {
                 <b class="d-lg-none">APR</b>
                 <h6>3.69%</h6>
               </div>
-              <div class="col-xs-6 text-center">
+
+              <div class="col text-center">
                 <b class="d-lg-none">My Deposit</b>
                 <h6>408,006 TRX</h6>
               </div>
@@ -150,7 +152,7 @@ const VaultItem = () => {
         <h2 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="container row mx-1 pt-3">
-              <div class="col">
+              <div class="col-md-4 col-sm-12">
                 <img
                   src={BNBImg}
                   alt="gStable"
@@ -167,7 +169,8 @@ const VaultItem = () => {
                 <b class="d-lg-none">APR</b>
                 <h6>3.69%</h6>
               </div>
-              <div class="col-xs-6 text-center">
+
+              <div class="col text-center">
                 <b class="d-lg-none">My Deposit</b>
                 <h6>8,006 BNB</h6>
               </div>
@@ -191,7 +194,7 @@ const VaultItem = () => {
         <h2 class="accordion-header" id="headingFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="container row mx-1 pt-3">
-              <div class="col">
+              <div class="col-md-4 col-sm-12">
                 <img
                   src={USDDImg}
                   alt="gStable"
@@ -208,7 +211,8 @@ const VaultItem = () => {
                 <b class="d-lg-none">APR</b>
                 <h6>3.69%</h6>
               </div>
-              <div class="col-xs-6 text-center">
+
+              <div class="col text-center">
                 <b class="d-lg-none">My Deposit</b>
                 <h6>$48,006.98</h6>
               </div>
