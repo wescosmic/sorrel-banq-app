@@ -1,4 +1,5 @@
 import WalletConnect from '../components/walletconnect';
+import HomeCarousel from '../components/homecarousel';
 
 const Home = () => {
   return (
@@ -26,17 +27,12 @@ const Home = () => {
 
 
     <div class="container home content mt-n4">
+      <HomeCarousel></HomeCarousel>
 
-            <div class="row mt-5 mx-5 text-center">
+            <div class="row mt-3 mx-5 text-center">
               <div class="col"></div>
               <div class="col-8">
-                <h1>Save | Earn | Spend</h1>
 
-                <div class="card" >
-                  <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
 
               </div>
               <div class="col"></div>
