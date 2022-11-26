@@ -66,8 +66,8 @@ const HomeCarousel = () => {
 		      <img src="https://via.placeholder.com/1200x700/d9e3f1" class="d-block w-100" alt="https://via.placeholder.com/500x300"/>
 		      <div class="carousel-caption d-none d-md-block">
 		        
-			    <h5>A Simple decentralized banq.</h5>
-			    <h5>For anyone. Anywhere. On-chain.</h5>
+			    <h5>A Simple Decentralized Banq.</h5>
+			    <h5>For Anyone. Anywhere. On-chain.</h5>
 			    <h5>Get ready for your new Sorrel Multi-Currency Savings Account!</h5>
 
 			    <div class="p-5">
