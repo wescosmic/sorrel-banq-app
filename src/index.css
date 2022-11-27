@@ -30,7 +30,7 @@ code {
     color:#fff!important;
     min-height: 330px;
 background: rgb(62,57,133)!important;
-background: linear-gradient(180deg, rgba(62,57,133,1) 0%, rgba(91,98,244,1) 36%)!important;
+background: linear-gradient(180deg, rgba(62,57,133,1) 0%, rgba(91,98,244,1))!important;
 }
 
 .offcanvas-header.bg-info {
