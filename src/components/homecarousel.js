@@ -92,9 +92,9 @@ const HomeCarousel = () => {
 				        </select>
 				    </div>
 
-					  <button class="btn btn-outline-info mt-5 mb-3" type="button" >
-					    Create Account
-					  </button>
+					  <a href="/accounts"> <button class="btn btn-outline-info mt-5 mb-3" type="button" >
+					   Create Account
+					  </button></a>
 
 			      </div>
 
