@@ -1,8 +1,8 @@
-import CurrencyAcc from "../components/currencyacc";
+import CurrencyAcc from "../components/currencyaccalt";
 import OffcanvasAddAccount from "../components/offcanvas-addaccount";
 import OffcanvasExchange from "../components/offcanvas-exchange";
 import OffcanvasDeposit from "../components/offcanvas-deposit";
-import OffcanvasWithdraw from "../components/offcanvas-withdraw";
+import OffcanvasTransfer from "../components/offcanvas-transfer";
 import WalletConnect from '../components/walletconnect';
 
 const Accounts = () => {
@@ -82,9 +82,9 @@ const Accounts = () => {
             <i class="fa-solid fa-cloud-arrow-down"></i>&nbsp;
             Deposit
           </button>
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithdraw" aria-controls="offcanvasWithdraw">
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTransfer" aria-controls="offcanvasTransfer">
             <i class="fa-solid fa-arrow-up-right-from-square"></i>&nbsp;
-            Send
+            Transfer
           </button>
         </span>
         </div>   
@@ -98,7 +98,7 @@ const Accounts = () => {
     <OffcanvasAddAccount></OffcanvasAddAccount>
     <OffcanvasExchange></OffcanvasExchange>
     <OffcanvasDeposit></OffcanvasDeposit>
-    <OffcanvasWithdraw></OffcanvasWithdraw>
+    <OffcanvasTransfer></OffcanvasTransfer>
 </>
   );
 };

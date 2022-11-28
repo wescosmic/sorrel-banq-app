@@ -2,15 +2,15 @@
 
 
 
-const OffcanvasWithdraw = () => {
+const OffcanvasTransfer = () => {
   return (
 
     <>
 
 
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithdraw" aria-labelledby="offcanvasRightLabel">
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasTransfer" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header bg-info">
-    <h5 id="offcanvasRightLabel">Send</h5>
+    <h5 id="offcanvasRightLabel">Transfer</h5>
     <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body mx-3">
@@ -88,4 +88,4 @@ const OffcanvasWithdraw = () => {
   );
 };
 
-export default OffcanvasWithdraw;
+export default OffcanvasTransfer;
