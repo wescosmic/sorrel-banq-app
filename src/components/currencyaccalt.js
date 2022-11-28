@@ -78,7 +78,7 @@ const currencyAcc = () => {
           <div class="col"></div>
           <div class="col text-center">$44,326.88</div>
           <div class="col"></div>
-          <div class="col"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
+          <div class="col text-center"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
         </div>
         <div class="row mt-3">
           <div class="col text-left">
@@ -97,7 +97,7 @@ const currencyAcc = () => {
           <div class="col"></div>
           <div class="col text-center">$326.88</div>
           <div class="col"></div>
-          <div class="col"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
+          <div class="col text-center"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
         </div>
         <div class="row mt-3">
           <div class="col text-left">
@@ -116,7 +116,7 @@ const currencyAcc = () => {
           <div class="col"></div>
           <div class="col text-center">$326.88</div>
           <div class="col"></div>
-          <div class="col"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
+          <div class="col text-center"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
         </div>
         <div class="row mt-3">
           <div class="col text-left">
@@ -135,7 +135,7 @@ const currencyAcc = () => {
           <div class="col"></div>
           <div class="col text-center">$326.88</div>
           <div class="col"></div>
-          <div class="col"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
+          <div class="col text-center"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
         </div>
 
         <div class="row mt-3">
@@ -199,7 +199,7 @@ const currencyAcc = () => {
           <div class="col"></div>
           <div class="col text-center">$44,326.88</div>
           <div class="col"></div>
-          <div class="col"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
+          <div class="col text-center"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
         </div>
         <div class="row mt-3">
           <div class="col text-left">
@@ -218,7 +218,7 @@ const currencyAcc = () => {
           <div class="col"></div>
           <div class="col text-center">$326.88</div>
           <div class="col"></div>
-          <div class="col"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
+          <div class="col text-center"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
         </div>
         <div class="row mt-3">
           <div class="col text-left">
@@ -237,7 +237,7 @@ const currencyAcc = () => {
           <div class="col"></div>
           <div class="col text-center">$326.88</div>
           <div class="col"></div>
-          <div class="col"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
+          <div class="col text-center"><button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTxnHistory" aria-controls="offcanvasTxnHistory">Transaction History</button></div>
         </div>
 
 
